@@ -407,7 +407,7 @@ body {
 
 /* #region section-five */
 .section-five {
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 .section-five-box {
   display: flex;
@@ -456,6 +456,95 @@ body {
   height: 500px;
 }
 /* #endregion section-five */
+
+/* #region section-six */
+.section-six {
+  margin-bottom: 100px;
+}
+
+.section-six-box {
+  max-width: 916px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-six-header {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.section-six-text {
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 40px;
+  max-width: 542px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-six-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 100px;
+  margin-bottom: 50px;
+}
+
+.section-six-list-item {
+}
+
+.section-six-li-box {
+  width: 408px;
+  height: 98px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-six-list-item:nth-child(2) .section-six-li-box,
+.section-six-list-item:nth-child(3) .section-six-li-box {
+  flex-direction: row-reverse;
+}
+
+.section-six-li-img-thumb {
+  width: 98px;
+  height: 98px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.section-six-list-item-img {
+}
+
+.section-six-li-text-box {
+  width: 281px;
+  height: 50px;
+  box-shadow: 2px 2px 10px 0 rgba(23, 58, 86, 0.15);
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-six-list-item-text {
+  font-weight: 500;
+  text-align: center;
+}
+
+.section-six-btn {
+  min-width: 216px;
+  height: 53px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.green-btn {
+}
+
+/* #endregion section-six */
 
 /* #region price */
 .price {
